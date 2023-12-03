@@ -1,0 +1,8 @@
+Commands run for Local GPT in Google Colab:
+
+!git clone https://github.com/PromtEngineer/localGPT.git
+!pip install -r localGPT/requirements.txt
+[Upload docs]
+!python localGPT/ingest.py
+pip install llama-cpp-python   (This command is run to avoid some issues when running localGPT)
+!python localGPT/run_localGPT.py
